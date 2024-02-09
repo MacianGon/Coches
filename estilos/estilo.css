@@ -1,0 +1,69 @@
+body {
+    background-image: url('../imagenes/fondo.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5;
+    }
+    
+    #contenedor-imagenes {
+    border: 5px solid rgb(0, 0, 0);
+    position: relative;
+    height: 100vh;
+    box-sizing: border-box;
+    }
+    
+    img {
+    height: 150px;
+    width: auto;
+    background: transparent;
+    position: absolute;
+    }
+    
+    #car1-imagen{/*Las he posicionado de manera absoluta dentro de un contenedor relativo*/
+    top: 0;
+    left: 0;
+    }
+    
+    #car2-imagen {
+    top: 0;
+    right: 0;
+    }
+    
+    #car3-imagen {
+    bottom: 0;
+    left: 0;
+    }
+    
+    #car4-imagen {
+    bottom: 0;
+    right: 0;
+    }
+
+    #car5-imagen {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #contenedor-titulo {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    }
+    
+    #contenedor-titulo h1 {
+    margin: 0;
+    }
+    
+
+/* Añade estilos adicionales según sea necesario */
+#car1-imagen,
+#car2-imagen,
+#car3-imagen,
+#car4-imagen,
+#car5-imagen {
+    width: 400px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Autoajuste de altura para mantener la proporción */
+    border: 2px solid #000000; /* Añade un borde opcional */
+}
